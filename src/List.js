@@ -2,35 +2,29 @@ import React, { Component } from 'react';
 import './list.css'
 
 
-class List extends Component{
-    state = {
-        lists: []
-      };
-    
-      addList = (newItem) => {
-          this.setState({
-           
-          });
-          
+class List extends Component {
 
-      }
+  state = {
+    lists: [{ task: 'hello' }, { task: "hi" }]
+  };
 
-      render(){
-        return(
-          <div>
-            {/* <div className = "list">
-            {this.state.lists.map(list => (
-              <li>{list.item}</li>
-            ))}
-            </div> */}
-    
-           
+  render() {
+    const { list } = this.props;
 
-          </div>
+    return (
+      <div className="list">
+        {list.map(thing => (
+          <li>{thing.task}</li>
+        ))}
 
-        );
 
-      }
+
+
+      </div>
+
+    );
+
+  }
 }
 
 

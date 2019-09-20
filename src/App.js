@@ -43,21 +43,6 @@ class App extends Component {
   }
 
 
-  // addItem() {
-  //   const newItem = {
-  //     id: 1 + Math.random(),
-  //     value: this.state.newItem.slice()
-  //   };
-
-  //   const list = [...this.state.list];
-  //   list.push(newItem);
-
-  //   this.setState({
-  //     list,
-  //     newItem: ""
-  //   });
-
-  // }
 
 
 
