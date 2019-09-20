@@ -74,7 +74,7 @@ class App extends Component {
               </div>
 </nav>
 
-<div className="container">
+<div className="container is-fluid">
   <div className="notification">
     This container is <strong>fluid</strong>: it will have a 32px gap on either side, on any
     viewport size.
@@ -82,7 +82,7 @@ class App extends Component {
 </div>
 
 
-<div className="frameW container">
+<div className="frameW container is-fluid">
 
 
 
